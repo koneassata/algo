@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>commerce</h1>
+        <button id="createImageBtn"> Image</button>
+        <div id="imageContainer" ></div>
+     </div>
+
+    </script></script>
+         <script>
+    // Sélection du bouton et du conteneur où l'image sera ajoutée
+    const button = document.getElementById("createImageBtn");
+    const imageContainer = document.getElementById("imageContainer");
+
+    // Fonction pour ajouter une image
+    function createImage() {
+      // Vérifier si une image existe déjà pour éviter les doublons
+      if (!document.getElementById("imageCommerce")) {
+        // Créer un élément <img>
+        const image = document.createElement("img");
+
+        // Définir les attributs de l'image
+        image.src = "https://via.placeholder.com/300x200.png?text=Commerce";
+        image.alt = "Image de commerce";
+        image.id = "imageCommerce";
+
+        // Ajouter l'image au conteneur
+        imageContainer.appendChild(image);
+      } else {
+        alert("L'image existe déjà !");
+      }
+    }
+
+    // Attacher un événement au bouton
+    button.addEventListener("click", createImage);
+  
+
+
+      </script>
+</body>
+</html>

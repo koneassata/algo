@@ -1,0 +1,120 @@
+
+KMS & KMS 2038 & Dijital & Online Aktivasyon Suite v9.1
+==========================================================================================================================
+
+Bu araç 4 farklý aktivasyon metodunu içerir.
+
+KMS Injekt, KMS 2038, Dijital ve Online (Çevrimiçi) aktivasyon yöntemleri.
+
+Bu komut dosyasý oluþturulurken, abbodi1406’nýn komut dosyasý referans alýnmýþtýr. Kendisine çok teþekkür ederim.
+
+Bazý güvenlik programlarý bu uygulamaya ait bazý dosyalarý virüslü görebilir, bu uyarýlar yanlýþ alarmdýr.
+(Bilinen antivirüs uygulamalarý tarafýndan bu uygulama genel olarak temiz görülmektedir.)
+
+Bu araçlarý kullanýrsanýz, diðer KMS çözümlerini kaldýrýn ve AV güvenlik korumasýný geçici olarak kapatýn.
+
+Bilgisayarýnýzda RETAIL Office sürümleri yüklü ise KMS Suite aktivasyon iþlemine baþladýðýnda otomatik olarak Office ürünleri 
+için VOLUME Lisans sertifikalarýný yükleyecektir.
+
+$OEM$ Aktivasyon Hakkýnda:
+3 yöntem de $OEM$ aktivasyon desteði mevcuttur
+Yükleme sýrasýnda sistemi yeniden etkinleþtirmek için, yükleme ortamýndaki "sources" klasörüne $OEM$ klasörünü kopyalayýn (iso / usb)
+$OEM$ etkinleþtirme yöntemi ayrýca kurulum sýrasýnda KMS görev zamanlama sistemini de etkinleþtirir. (dijital aktivasyon yöntemi hariç)
+
+Uygulamaya ait tüm exe ve dll dosyalarý tüm antivirüs uygulamalarý tarafýndan temiz olarak deðerlendirilmektedir.
+Piyasaki diðer KMS uygulamalarýna göre tüm yöntemleri içinde barýndýran en temiz KMS uygulamasýdýr.
+          
+Uygulamaya ait exe ve dll dosyalarýn virustotal sonuçlarý:
+          
+KMSInject yöntemine ait dll dosyalarý virustotal sonuçlarý
+x64 KMS.dll (23 Eylül 2021)
+https://www.virustotal.com/gui/file/bcde6b7bbafa2b4eeb6c75f051b5949d27b49b4030e376a7838ba84e4e103daf
+          
+x86 KMS.dll (23 Eylül 2021)
+https://www.virustotal.com/gui/file/c43ccfcc2f7ab3e2d229da6b1fb9715cc707991835108518cb0aa9a667ea15cc
+
+A64 KMS.dll (23 Eylül 2021)
+https://www.virustotal.com/gui/file/24bf5b777254334c384e02ced455d21470163569d33ffebad36e54f6afd5059c
+          
+Dijital & KMS38 Aktivasyon yöntemine ait exe ve dll dosyalarý virustotal sonuçlarý 
+gatherosstate.exe (15 Eylül, 2019)
+https://www.virustotal.com/gui/file/028c8fbe58f14753b946475de9f09a9c7a05fd62e81a1339614c9e138fc2a21d/detection
+
+slc.dll (23 Kasým 2019)
+https://www.virustotal.com/gui/file/e7eca8c7476df70ef525ae55a0d8ccc715f22a727165a05fd4c380032cf763a9/detection
+
+==========================================================================================================================
+
+Aktivasyon Tipi       Desteklenen Ürünler                                     Aktivasyon Süresi
+--------------------------------------------------------------------------------------------------------------------------
+
+Dijital Lisans        -  Windows 10 / 11                                      -  Kalýcý
+KMS38 Lisans          -  Windows 10 / 11 / Server                             -  2038 yýlýna kadar 
+KMS Lisans            -  Windows 7 (VL) 8 / 8.1 / 10 / 11 / Server / Office   -  180 günlük lisans (kalýcý lisans için KMS Görev Zamanlamanýn etkinleþtirilmesi gerekir) 
+Online KMS Lisans     -  Windows 7 (VL) 8 / 8.1 / 10 / 11 / Server / Office   -  180 günlük lisans (kalýcý lisans için KMS Görev Zamanlama gerekir, bu seçenek betikte yok) 
+
+==========================================================================================================================
+
+# DESTEKLENEN MICROSOFT ÜRÜNLERÝ:
+
+  Windows 7 (VL) / Windows 8 / 8.1 / 10 (ARM64) / 11 (ARM64)
+  Windows Server 2008 / 2012 / 2012 R2 / 2016 / 2019 / 2022
+  Office (VL) 2010 / 2013 / 2016 / 2019 / 2021
+  
+  
+# DESTEKLENMEYEN MICROSOFT ÜRÜNLERÝ:
+
+Windows ve Office ürünlerinin aþaðýda yazýlan sürümleri Online KMS, KMS Inject, KMS2038 ve Dijital aktivasyon yöntemleri tarafýndan desteklenmez.
+
+  * Office Retail (Volume Lisans sertifikalarý yüklendiði takdirde desteklenir)
+  * Windows 7 (Starter, HomeBasic, HomePremium, Ultimate)  
+  * Windows 10 (Cloud S, Professional Single Language)  
+  * Windows Server (Server Foundation, Storage Server, Home Server 2011)
+
+==========================================================================================================================
+
+# BÝLÝNMESÝ GEREKENLER:
+
+  * KMS Suite uygulamasýný ya masaüstünde ya da herhangi bir diskin kök dizininde çalýþtýrýn. Uzun uzun isimleri olan  
+    klasörler içinden ve klasör içindeki klasör içinden çalýþtýrmayýn...
+
+  * Bilgisayarýnýzda RETAIL Office yüklü ise aktivasyon sorgusunda sonuç gözükmebilir.
+  
+  * Inject yönteminde normal etkinleþtirme esnasýnda Windows ve Office ayrý ayrý etkinleþtirilebilirken KMS Görev   
+    Zamanlama modülünde ve $OEM$ Aktivasyon seçeneðinde Windows ve Office birlikte etkinleþtirilir.
+	
+  * Kullaným esnasýnda "No Instance(s) Available" hatasý alýrsanýz betik dosyasýný kapatýn ve tekrar çalýþtýrýn.
+  
+  * Betik dosyasýný kapatmak için menü seçeneklerinden ÇIKIÞ seçeneðini kullanýn.
+      
+==========================================================================================================================
+
+# BÝLÝNEN SORUNLAR:
+
+Hata bulursanýz TNCTR Forumunda konu üzerinden bildirin.
+
+==========================================================================================================================
+
+NOT:
+
+WinDivert yöntemi, Windows 10 v1809 sürümünden itibaren saðlýklý çalýþmadýðý için v9.1 sürümüne dahil edilmemiþtir ve 
+sonraki sürümlere de dahil edilmeyecektir.
+
+==========================================================================================================================
+
+# Özel Teþekkür
+
+TNCTR Ailesi
+Nsane Ailesi
+abbodi1406
+CODYQX4
+qewlpal
+s1ave77
+cynecx
+qad
+Mouri_Naruto
+WindowsAddict
+mspaintmsi
+BAU
+
+==========================================================================================================================

@@ -1,0 +1,36 @@
+ALGORITHM 
+ analyse une phrase caractère par caractère
+VAR
+     longueur, nombre_mots, nombre_voyelles
+BEGIN
+     print("Entrez une phrase qui se termine par un point:");
+    longueur = 0  
+    nombre_mots = 0  
+    nombre_voyelles = 0  
+    voyelles = "aeiouyAEIOUY"
+    en_mot = False
+
+      while True:
+        caractere = input("Entrez un caractère: ");
+        if caractere == ".":
+            longueur += 1  
+            if en_mot:  
+                nombre_mots += 1
+            break
+        longueur += 1
+         if caractere in voyelles:
+            nombre_voyelles += 1
+             if caractere != " ":
+            if not en_mot:  
+                en_mot = True
+        else:
+            if en_mot:  
+                nombre_mots += 1
+                en_mot = False
+
+        Afficher les résultats
+
+    print(f"Longueur de la phrase: {longueur} caractères")
+    print(f"Nombre de mots: {nombre_mots}")
+    print(f"Nombre de voyelles: {nombre_voyelles}")
+END
